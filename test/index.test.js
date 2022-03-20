@@ -1,8 +1,11 @@
 var assert = require("assert");
-describe("Array", function () {
-  describe("#indexOf()", function () {
-    it("should return -1 when the value is not present", function () {
-      assert.equal([1, 2, 3].indexOf(4), -1);
-    });
+var uniqueArray = require("../src/index");
+
+describe("uniqueArray", function () {
+  it("should return duplicate-free version of an array", function () {
+    var arr = [1, 2, 3, 1];
+    var res = uniqueArray(arr);
+
+    assert.deepStrictEqual(res, [1, 2, 3]);
   });
 });
