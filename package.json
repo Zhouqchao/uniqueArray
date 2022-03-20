@@ -4,7 +4,8 @@
   "description": "remove duplicates from array",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
+    "watch:test": "mocha --watch",
     "lint": "eslint src"
   },
   "repository": {
@@ -22,9 +23,11 @@
   },
   "homepage": "https://github.com/Zhouqchao/uniqueArray#readme",
   "devDependencies": {
+    "chai": "4.3.6",
     "eslint": "8.11.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-prettier": "4.0.0",
+    "mocha": "9.2.2",
     "prettier": "2.6.0"
   }
 }
