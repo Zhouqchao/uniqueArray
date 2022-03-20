@@ -1,0 +1,23 @@
+{
+  "name": "unique-array",
+  "version": "1.0.0",
+  "description": "remove duplicates from array",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zhouqchao/uniqueArray.git"
+  },
+  "keywords": [
+    "unique",
+    "array"
+  ],
+  "author": "zhouqichao <zhouqctech@gmail.com> (https://zhouqichao.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zhouqchao/uniqueArray/issues"
+  },
+  "homepage": "https://github.com/Zhouqchao/uniqueArray#readme"
+}
